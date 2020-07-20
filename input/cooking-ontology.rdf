@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita">
+	<tempAvg xmlns="http://linkeddata.stream/ontologies/cooking#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</tempAvg>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#American">
+	<tempAvg xmlns="http://linkeddata.stream/ontologies/cooking#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">270</tempAvg>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita">
+	<tempStd xmlns="http://linkeddata.stream/ontologies/cooking#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</tempStd>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#American">
+	<tempStd xmlns="http://linkeddata.stream/ontologies/cooking#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</tempStd>
+</rdf:Description>
+
+</rdf:RDF>
